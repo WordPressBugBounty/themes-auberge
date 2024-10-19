@@ -1,0 +1,23 @@
+/* FILE: main-rtl.scss */
+
+//
+// Main theme styles (RTL)
+//
+// @package    Auberge
+// @copyright  WebMan Design, Oliver Juhas
+//
+
+$language_direction: rtl;
+
+$left: right;
+$right: left;
+
+// Imports
+
+	@import 'setup';
+
+	@import 'css-vars';
+
+	@import 'starter/starter';
+
+	@import 'main/main';
